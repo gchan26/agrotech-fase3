@@ -76,8 +76,6 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 
 A tabela **`FAZENDINHA_AGROTECH`** é a representação digital das leituras de campo. A Fase 2 demonstrou o protótipo de **hardware (ESP32)** que seria a fonte real dos dados importados para o Oracle na Fase 3.
 
----
-
 #### 🧪 Fonte de Dados: ESP32 e Sensores
 
 O circuito simulado na Fase 2 é composto por um **ESP32** e seus sensores/atuadores, que geram as informações-chave que preenchem nossa tabela:
