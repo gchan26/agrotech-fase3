@@ -29,7 +29,7 @@ Os dados utilizados são provenientes de um arquivo CSV, simulando as leituras d
 
 A importação foi realizada seguindo as etapas do assistente de importação de dados do Oracle SQL Developer:
 
-#### 1. Visualização de Dados (Etapa 1 de 4)
+#### 1. Visualização de Dados 
 
 * **Ação:** Carregamento inicial do arquivo `dados-agricolas.csv`.
 * **Configuração:** Reconhecimento automático do formato `CSV` e da codificação `UTF8`. O cabeçalho foi identificado corretamente, definindo os nomes das colunas de origem.
@@ -37,7 +37,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 
 ---
 
-#### 2. Método de Importação (Etapa 2 de 4)
+#### 2. Método de Importação 
 
 * **Ação:** Definição da estratégia de gravação dos dados no banco.
 * **Nome da Tabela de Destino:** **`FAZENDINHA_AGROTECH`**
@@ -46,7 +46,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 
 ---
 
-#### 3. Escolher Colunas (Etapa 3 de 5)
+#### 3. Escolher Colunas 
 
 * **Ação:** Seleção dos campos a serem incluídos na tabela.
 * **Configuração:** Todas as 10 colunas disponíveis do CSV foram selecionadas para importação.
@@ -54,7 +54,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 
 ---
 
-#### 4. Definição de Coluna (Etapa 4 de 5)
+#### 4. Definição de Coluna 
 
 * **Ação:** Ajuste dos tipos de dados de cada coluna no banco de destino para garantir a integridade dos dados.
 * **Exemplo:** A coluna **`ID_FAZENDA`** foi configurada como **`NUMBER`** com Precisão 38 e Escala 0 para armazenar o ID como um número inteiro.
@@ -62,7 +62,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 
 ---
 
-#### 5. Conclusão e Confirmação
+#### 5. Conclusão e Confirmação 
 
 * **Ação:** Revisão final do resumo de importação e execução da tarefa.
 * **Resultado:** A importação foi concluída com sucesso e o **commit** efetuado, indicando que os dados foram **salvos** permanentemente na tabela `FAZENDINHA_AGROTECH`.
