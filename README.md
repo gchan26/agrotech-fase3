@@ -2,7 +2,7 @@
 
 ## 🎯 Objetivo da Fase
 
-A Fase 3 do Project-Based Learning (PBL) da **FarmTech Solutions** foca na **persistência de dados**, o objetivo principal é simular o **armazenamento** dos dados coletados pelos sensores agrícolas (da Fase 2) em um ambiente de produção real, utilizando o **Oracle Database** via **SQL Developer**. Essa integração é o primeiro passo para preparar a base de dados que alimentará os futuros modelos de Inteligência Artificial.
+A Fase 3 do Project-Based Learning (PBL) da **FarmTech Solutions** foca na **persistência de dados**, o objetivo principal é simular o **armazenamento** dos dados coletados pelos sensores agrícolas (da Fase 2) em um ambiente de produção real, utilizando o **Oracle Database** via **SQL Developer**. 
 
 ---
 
