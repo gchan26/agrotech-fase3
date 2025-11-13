@@ -59,6 +59,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 * **Método:** **`Inserir`** (Para criar a nova tabela e popular com os dados do arquivo).
 * **Print de Tela:** 
 <img src="assets/oracle-2.png" alt="Print do Oracle" width="70%">
+
 ---
 
 #### 3. Escolher Colunas 
@@ -67,6 +68,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 * **Configuração:** Todas as 10 colunas disponíveis do CSV foram selecionadas para importação.
 * **Print de Tela:** 
 <img src="assets/oracle-3.png" alt="Print do Oracle" width="70%">
+
 ---
 
 #### 4. Definição de Coluna 
@@ -75,6 +77,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 * **Exemplo:** A coluna **`ID_FAZENDA`** foi configurada como **`NUMBER`** com Precisão 38 e Escala 0 para armazenar o ID como um número inteiro.
 * **Print de Tela:** 
 <img src="assets/oracle-4.png" alt="Print do Oracle" width="70%">
+
 ---
 
 #### 5. Conclusão e Confirmação 
