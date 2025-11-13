@@ -120,5 +120,3 @@ Abaixo está como as leituras do ESP32 se traduzem nas colunas da nossa tabela `
 
 ### 🎥 Demonstração Prática: Importação e Validação
 Em anexo juntamente com a entrega, foi enviado o link de um vídeo que apresenta a execução completa da Fase 3 do nosso PBL.
-
-Ele detalha, passo a passo, o uso do Oracle SQL Developer para importar o arquivo de sensores agrícolas para a tabela FAZENDINHA_AGROTECH. O vídeo finaliza com a execução de uma consulta SQL (SELECT *) que valida o sucesso da importação e confirma o armazenamento dos dados, essenciais para as análises futuras de IA.
