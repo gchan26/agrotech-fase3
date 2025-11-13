@@ -72,7 +72,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 
 ---
 
-### 📡 6. Correlação entre Hardware (ESP32) e Banco de Dados
+### 📡 Correlação entre Hardware (ESP32) e Banco de Dados
 
 A tabela **`FAZENDINHA_AGROTECH`** é a representação digital das leituras de campo. A Fase 2 demonstrou o protótipo de **hardware (ESP32)** que seria a fonte real dos dados importados para o Oracle na Fase 3.
 
