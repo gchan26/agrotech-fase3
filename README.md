@@ -48,7 +48,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 * **Ação:** Carregamento inicial do arquivo `dados-agricolas.csv`.
 * **Configuração:** Reconhecimento automático do formato `CSV` e da codificação `UTF8`. O cabeçalho foi identificado corretamente, definindo os nomes das colunas de origem.
 * **Print de Tela:** 
-<img src="assets/oracle-1.png" alt="Print do Oracle" width="40%">
+<img src="assets/oracle-1.png" alt="Print do Oracle" width="70%">
 
 ---
 
@@ -58,7 +58,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 * **Nome da Tabela de Destino:** **`FAZENDINHA_AGROTECH`**
 * **Método:** **`Inserir`** (Para criar a nova tabela e popular com os dados do arquivo).
 * **Print de Tela:** 
-<img src="assets/oracle-2.png" alt="Print do Oracle" width="40%">
+<img src="assets/oracle-2.png" alt="Print do Oracle" width="70%">
 ---
 
 #### 3. Escolher Colunas 
@@ -66,7 +66,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 * **Ação:** Seleção dos campos a serem incluídos na tabela.
 * **Configuração:** Todas as 10 colunas disponíveis do CSV foram selecionadas para importação.
 * **Print de Tela:** 
-<img src="assets/oracle-3.png" alt="Print do Oracle" width="40%">
+<img src="assets/oracle-3.png" alt="Print do Oracle" width="70%">
 ---
 
 #### 4. Definição de Coluna 
@@ -74,7 +74,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 * **Ação:** Ajuste dos tipos de dados de cada coluna no banco de destino para garantir a integridade dos dados.
 * **Exemplo:** A coluna **`ID_FAZENDA`** foi configurada como **`NUMBER`** com Precisão 38 e Escala 0 para armazenar o ID como um número inteiro.
 * **Print de Tela:** 
-<img src="assets/oracle-4.png" alt="Print do Oracle" width="40%">
+<img src="assets/oracle-4.png" alt="Print do Oracle" width="70%">
 ---
 
 #### 5. Conclusão e Confirmação 
@@ -82,8 +82,8 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 * **Ação:** Revisão final do resumo de importação e execução da tarefa.
 * **Resultado:** A importação foi concluída com sucesso e o **commit** efetuado, indicando que os dados foram **salvos** permanentemente na tabela `FAZENDINHA_AGROTECH`.
 * **Prints de Tela:**
-    * <img src="assets/oracle-5.png" alt="Print do Oracle" width="40%">
-    * <img src="assets/oracle-6.png" alt="Print do Oracle" width="40%">
+    * <img src="assets/oracle-5.png" alt="Print do Oracle" width="70%">
+    * <img src="assets/oracle-6.png" alt="Print do Oracle" width="70%">
 
 ---
 
@@ -91,7 +91,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 
 A tabela **`FAZENDINHA_AGROTECH`** é a representação digital das leituras de campo. A Fase 2 demonstrou o protótipo de **hardware (ESP32)** que seria a fonte real dos dados importados para o Oracle na Fase 3.
 
-<img src="assets/esp32.png" alt="Circuito ESP32" width="40%">
+<img src="assets/esp32.png" alt="Circuito ESP32" width="70%">
 
 #### 🧪 Fonte de Dados: ESP32 e Sensores
 
