@@ -1,5 +1,19 @@
 # 🚀 Projeto PBL FarmTech Solutions | Fase 3: Integração com Oracle DB
 
+<p align="center">
+  <a href="https://www.fiap.com.br/">
+    <img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Administração Paulista" width="40%">
+  </a>
+</p>
+
+## 👨‍🎓 Integrantes
+- <a>Jacqueline Nanami - RM568498</a>
+- <a>Davis Roberto - RM567941</a>
+- <a>Guilherme Chan - RM567722</a>
+- <a>Deivid Paula da Silva Oliveira - RM566752</a>
+- <a>Guilherme Paes Barreto Didier Garcia - RM568457</a>
+
+
 ## 🎯 Objetivo da Fase
 
 A Fase 3 do Project-Based Learning (PBL) da **FarmTech Solutions** foca na **persistência de dados**, o objetivo principal é simular o **armazenamento** dos dados coletados pelos sensores agrícolas (da Fase 2) em um ambiente de produção real, utilizando o **Oracle Database** via **SQL Developer**. 
@@ -34,6 +48,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 * **Ação:** Carregamento inicial do arquivo `dados-agricolas.csv`.
 * **Configuração:** Reconhecimento automático do formato `CSV` e da codificação `UTF8`. O cabeçalho foi identificado corretamente, definindo os nomes das colunas de origem.
 * **Print de Tela:** 
+<img src="assets/oracle-1.png" alt="Print do Oracle" width="40%">
 
 ---
 
@@ -43,7 +58,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 * **Nome da Tabela de Destino:** **`FAZENDINHA_AGROTECH`**
 * **Método:** **`Inserir`** (Para criar a nova tabela e popular com os dados do arquivo).
 * **Print de Tela:** 
-
+<img src="assets/oracle-2.png" alt="Print do Oracle" width="40%">
 ---
 
 #### 3. Escolher Colunas 
@@ -51,7 +66,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 * **Ação:** Seleção dos campos a serem incluídos na tabela.
 * **Configuração:** Todas as 10 colunas disponíveis do CSV foram selecionadas para importação.
 * **Print de Tela:** 
-
+<img src="assets/oracle-3.png" alt="Print do Oracle" width="40%">
 ---
 
 #### 4. Definição de Coluna 
@@ -59,7 +74,7 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 * **Ação:** Ajuste dos tipos de dados de cada coluna no banco de destino para garantir a integridade dos dados.
 * **Exemplo:** A coluna **`ID_FAZENDA`** foi configurada como **`NUMBER`** com Precisão 38 e Escala 0 para armazenar o ID como um número inteiro.
 * **Print de Tela:** 
-
+<img src="assets/oracle-4.png" alt="Print do Oracle" width="40%">
 ---
 
 #### 5. Conclusão e Confirmação 
@@ -67,14 +82,16 @@ A importação foi realizada seguindo as etapas do assistente de importação de
 * **Ação:** Revisão final do resumo de importação e execução da tarefa.
 * **Resultado:** A importação foi concluída com sucesso e o **commit** efetuado, indicando que os dados foram **salvos** permanentemente na tabela `FAZENDINHA_AGROTECH`.
 * **Prints de Tela:**
-    * 
-    * 
+    * <img src="assets/oracle-5.png" alt="Print do Oracle" width="40%">
+    * <img src="assets/oracle-6.png" alt="Print do Oracle" width="40%">
 
 ---
 
 ### 📡 Correlação entre Hardware (ESP32) e Banco de Dados
 
 A tabela **`FAZENDINHA_AGROTECH`** é a representação digital das leituras de campo. A Fase 2 demonstrou o protótipo de **hardware (ESP32)** que seria a fonte real dos dados importados para o Oracle na Fase 3.
+
+<img src="assets/esp32.png" alt="Circuito ESP32" width="40%">
 
 #### 🧪 Fonte de Dados: ESP32 e Sensores
 
@@ -96,7 +113,9 @@ Abaixo está como as leituras do ESP32 se traduzem nas colunas da nossa tabela `
 | **`Bomba LIGADA!` / `Bomba DESLIGADA!`** | **TIPO\_IRRIGACAO** | Indica o estado da ação tomada pelo microcontrolador. |
 | **`N=FALTA` / `P=FALTA` / `K=FALTA`** | **TIPO\_FERTILIZANTE** | A lógica por trás desses indicadores simula a decisão de usar 'adubo', 'fertilizante' ou 'defensor' na fazenda. |
 
+---
+
 ### 🎥 Demonstração Prática: Importação e Validação
-Este vídeo apresenta a execução completa da Fase 3 do nosso PBL.
+Em anexo juntamente com a entrega, foi enviado o link de um vídeo que apresenta a execução completa da Fase 3 do nosso PBL.
 
 Ele detalha, passo a passo, o uso do Oracle SQL Developer para importar o arquivo de sensores agrícolas para a tabela FAZENDINHA_AGROTECH. O vídeo finaliza com a execução de uma consulta SQL (SELECT *) que valida o sucesso da importação e confirma o armazenamento dos dados, essenciais para as análises futuras de IA.
