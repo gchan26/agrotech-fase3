@@ -85,8 +85,6 @@ O circuito simulado na Fase 2 é composto por um **ESP32** e seus sensores/atuad
 * **Módulo Relé e Bomba (Simulado):** Atuador que controla a irrigação. O estado "Bomba LIGADA!" ou "Bomba DESLIGADA!" é a ação tomada com base no limite de umidade (ex: `umid>=60.00%`).
 * **Lógicas de Botões (Simulado):** Representam os fatores que, junto com o pH, determinam a necessidade de insumos (**TIPO\_FERTILIZANTE**).
 
----
-
 #### 📊 Mapeamento de Dados
 
 Abaixo está como as leituras do ESP32 se traduzem nas colunas da nossa tabela `FAZENDINHA_AGROTECH`:
